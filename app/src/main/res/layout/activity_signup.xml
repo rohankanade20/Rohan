@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/rohan"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:layout_marginTop="50dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#ED9595"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="97dp"
+            android:layout_marginTop="90dp"
+            android:layout_gravity="center"/>
+
+
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#E1B3B3"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:ems="15"
+        android:background="@drawable/lavender_border"
+        android:textColorHint="#EF8FC9"
+        android:layout_marginLeft="5dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/baseline_contacts_24"
+        android:drawablePadding="5dp"
+        android:maxLength="15"
+        android:hint=" Username" />
+
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:textColor="#E1B3B3"
+        android:padding="15dp"
+        android:background="@drawable/lavender_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#EF8FC9"
+        android:maxLength="8"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+        <EditText
+
+            android:id="@+id/signup_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:textColor="#E1B3B3"
+            android:padding="15dp"
+            android:background="@drawable/lavender_border"
+            android:drawableLeft="@drawable/baseline_contacts_24"
+            android:drawablePadding="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:textColorHint="#EF8FC9"
+            android:maxLength="8"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15"
+        android:layout_marginRight="15"
+
+        android:text="Sign in"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:cornerRadius="30dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/signup_button"/>
+
+        <TextView
+            android:id="@+id/loginRedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already an User? Login"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#46A2CC"/>
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

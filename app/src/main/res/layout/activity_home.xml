@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:padding="2dp"
+    android:gravity="center_horizontal"> //imp property
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ons"
+        android:contentDescription="About page"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="Shiva , or Siva, Major deity of Hinduism, believed to have many manifestations. Like Vishnu, he is the subject of an elaborate and sometimes contradictory mythology. He is both the destroyer and the restorer, the great ascetic and the symbol of sensuality, the benevolent herdsman of souls and the wrathful avenger."/>
+
+    <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="text"
+        android:layout_margin="11dp"
+        android:hint="Enter your name" />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#B0000000"
+      android:text="Contact us"/>
+
+</LinearLayout>
